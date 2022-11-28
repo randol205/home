@@ -1,7 +1,10 @@
 .dark p {
-    color:red
+    color:rgb(0, 145, 255)
 
 } 
 .dark h1 {
-    color: rgb(126, 158, 37);
+    color: rgb(58, 255, 153);
+}
+.dark a {
+    color: aqua;
 }
