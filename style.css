@@ -1,13 +1,92 @@
-.dark p {
-    color:rgb(0, 0, 0)
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Kanit&display=swap');
 
-} 
-.dark h1 {
-    color: rgb(0, 0, 0);
+* {
+	font-family: 'Kanit', sans-serif;
+	transition: all 0.2s ease;
 }
+
+html {
+	height: 100%;
+	margin: 0px;
+}
+
+body {
+	/* background-image: radial-gradient(black 1px, transparent), linear-gradient(168deg, rgb(233, 233, 233) 0%, rgb(158, 179, 186) 100%);
+	background-repeat: repeat, no-repeat;
+	background-position: 100px 100px, center center;
+	background-attachment: fixed;
+	-webkit-background-size: 1000px 1000px, cover;
+	-moz-background-size:    1000px 1000px, cover;
+	-o-background-size:      1000px 1000px, cover;
+	background-size:         1000px 1000px, cover; */
+
+	background: white;
+	background-image: 
+	radial-gradient(rgba(0, 0, 0, 0.2) 2px, transparent 0),
+	linear-gradient(0deg,rgb(215, 213, 208),rgb(234, 234, 234));
+	
+	background-size: 20px 20px,cover;
+	background-attachment: scroll, fixed;
+
+}
+
+.dark {
+	background-color: rgb(27, 25, 34);
+	background-image:
+	radial-gradient(rgba(255, 255, 255, 0.1) 2px, transparent 0),
+	linear-gradient(168deg, rgba(27,25,34,1) 0%, rgb(60, 7, 29) 100%);
+	color: rgb(255, 251, 244);
+}
+
 .dark a {
-    color: rgb(0, 0, 0);
+	color: rgb(59, 160, 255);
 }
-.dark html {
-    color: black;
+.dark a:visited {
+	color: rgb(141, 104, 233);
+}
+
+#theme {
+	position: fixed;
+
+	right: 10px;
+
+	border: none;
+	border-radius: 5px;
+	padding: 4px;
+	padding-bottom: 0px;
+	background-color: rgb(27,25,34);
+	/* background-image: linear-gradient(168deg, rgba(27,25,34,1) 0%, rgb(101, 11, 48) 100%); */
+
+
+	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.535);
+
+	cursor: pointer;
+}
+
+#theme:hover {
+	transform: scale(1.2);
+	box-shadow: 1px 5px 15px rgba(0,0,0,0.4);
+}
+
+.dark #theme {
+	background-color: aliceblue;
+	/* background-image: linear-gradient(168deg, rgba(255,255,255,1) 0%, rgb(73, 116, 129) 100%); */
+}
+
+.dark #theme #sun {
+	display: inline-block;
+}
+#theme #sun {
+	display: none;
+}
+.dark #moon {
+	display: none;
+}
+
+h1,p,li {
+	text-shadow: 1px 1px 20px black;
+}
+
+li:hover {
+	transform: translateX(10px);
 }
