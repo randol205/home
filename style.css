@@ -1,12 +1,12 @@
 .dark p {
-    color:rgb(62, 221, 14)
+    color:rgb(0, 0, 0)
 
 } 
 .dark h1 {
-    color: rgb(255, 140, 58);
+    color: rgb(0, 0, 0);
 }
 .dark a {
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
 .dark html {
     color: black;
