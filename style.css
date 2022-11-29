@@ -25,3 +25,18 @@ background-size: 100% 100vh;
     font-family: 'Brush Script MT', cursive;
     font: size 25px;
   }
+  .dark p {
+    color:black;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  .dark a {
+color:black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 30px;
+  }
+  .dark h1 {
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+  }
