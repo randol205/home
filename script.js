@@ -1,13 +1,13 @@
-var isDarkMode=false
+var isDarkMode = false
 
 function toggleTheme() {
-    isDarkMode=!isDarkMode    
+    isDarkMode = !isDarkMode
 
-if(isDarkMode) {
-    document.body.classList.add("dark")    
-} else {
-    document.body.classList.remove('dark')
-  }  
-  var sun=false
-  
+    if (isDarkMode) {
+        document.body.classList.add("dark")
+    } else {
+        document.body.classList.remove('dark')
+    }
+    var sun = false
+
 }
