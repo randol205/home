@@ -1,42 +1,49 @@
 .dark p {
-    color:black;
-    font-family: cursive;
-    font-size: 20px;
-  }
-  .dark a {
-color:black;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-family: 30px;
-  }
-  .dark h1 {
-    color:black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-  }
+  color: black;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.dark a {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 30px;
+}
+
+.dark h1 {
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+}
+
 html {
-    background: rgb(246,72,232);
-background: linear-gradient(0deg, rgba(246,72,232,1) 0%, rgba(155,140,233,1) 100%);
-background-size: 100% 100vh;
+  background: rgb(246, 72, 232);
+  background: linear-gradient(0deg, rgba(246, 72, 232, 1) 0%, rgba(155, 140, 233, 1) 100%);
+  background-size: 100% 100vh;
+}
+
 .dark .moon {
-    display:none;
+  display: none;
 }
+
 :not(.dark) .sun {
-    display:none;
+  display: none;
 }
+
 #theme {
-	position: fixed;
+  position: fixed;
 
-	right: 10px;
+  right: 10px;
 
-	border: none;
-	border-radius: 5px;
-	padding: 4px;
-	padding-bottom: 0px;
-	background-color: rgb(27,25,34);
-	/* background-image: linear-gradient(168deg, rgba(27,25,34,1) 0%, rgb(101, 11, 48) 100%); */
+  border: none;
+  border-radius: 5px;
+  padding: 4px;
+  padding-bottom: 0px;
+  background-color: rgb(27, 25, 34);
+  /* background-image: linear-gradient(168deg, rgba(27,25,34,1) 0%, rgb(101, 11, 48) 100%); */
 
 
-	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.535);
+  box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.535);
 
-	cursor: crosshair;
+  cursor: crosshair;
 }
