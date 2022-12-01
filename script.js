@@ -8,4 +8,6 @@ if(isDarkMode) {
 } else {
     document.body.classList.remove('dark')
   }  
+  var sun=false
+  
 }
