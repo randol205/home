@@ -5,15 +5,16 @@
 }
 
 .dark a {
-  color: rgb(255, 0, 0);
+  color: rgb(166, 0, 255);
   font-family: 'Brush Script MT', cursive;
-  font-family: 30px;
+  font-family: 25px;
 }
 
 .dark h1 {
   color: rgb(86, 71, 227);
+  text-align: center;
   font-family: 'Brush Script MT', cursive;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 html {
