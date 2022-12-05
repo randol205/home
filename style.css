@@ -5,7 +5,7 @@
 }
 
 .dark a {
-  color: rgb(166, 0, 255);
+  color: rgb(66, 171, 236);
   font-family: 'Brush Script MT', cursive;
   font-family: 25px;
 }
@@ -17,12 +17,12 @@
   font-size: 50px;
 }
 .dark p {
-  color: greenyellow;
+  color: rgb(139, 47, 195);
   font-size:26px;
   text-align: center;
 }
 .dark h6 {
-  color: blue;
+  color: rgb(0, 0, 0);
   font-size: 25px;
   font-family: 'Brush Script MT', cursive;
   text-align: left;
