@@ -71,6 +71,7 @@ html {
   size: 20px;
 }
 html .dark {
-  background-color: brown;
-  background-image: url("https://th.bing.com/th/id/OIP.o_14CNB3NjFi4gqq1dxv_AHaEK?pid=ImgDet&rs=1&adlt=strict") ;
+  background: rgb(255,0,234);
+background: linear-gradient(0deg, rgba(255,0,234,1) 0%, rgba(44,212,254,1) 100%);
+  background-size: 100% 100vh;
 }
