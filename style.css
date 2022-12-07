@@ -12,14 +12,14 @@
 
 .dark h1 {
   color: rgb(0, 255, 81);
-  text-align: left;
+  text-align: center;
   font-family: 'Brush Script MT', cursive;
   font-size: 50px;
 }
 .dark p {
   color: rgb(139, 47, 195);
   font-size:26px;
-  text-align: center;
+  text-align: left;
 }
 .dark h6 {
   color: rgb(0, 0, 0);
