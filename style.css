@@ -62,7 +62,10 @@ html {
 
   box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.535);
 
-  cursor: crosshair;
+  cursor: pointer;
+}
+.dark #theme {
+  background-color: white;
 }
 .moon {
   size: 20px;
