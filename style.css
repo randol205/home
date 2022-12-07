@@ -39,8 +39,12 @@ html {
   display: none;
 }
 
-:not(.dark) .sun {
+.sun {
   display: none;
+}
+
+.dark .sun {
+  display: inline;
 }
 
 #theme {
