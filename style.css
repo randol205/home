@@ -70,3 +70,7 @@ html {
 .moon {
   size: 20px;
 }
+html .dark {
+  background-color: brown;
+  background-image: url("https://th.bing.com/th/id/OIP.o_14CNB3NjFi4gqq1dxv_AHaEK?pid=ImgDet&rs=1&adlt=strict") ;
+}
