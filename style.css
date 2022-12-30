@@ -68,11 +68,13 @@ html:has(> .dark) {
 background: linear-gradient(0deg, rgba(255,0,234,1) 0%, rgba(44,212,254,1) 100%);
   background-size: 100% 100vh;
   background-attachment: fixed;
+  cursor: progress;
 }
 html {
   background: rgb(246, 72, 232);
   background: linear-gradient(0deg, rgba(246, 72, 232, 1) 0%, rgba(155, 140, 233, 1) 100%);
   background-size: 100% 100vh;
   background-attachment: fixed;
+  cursor: progress;
   
 }
