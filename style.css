@@ -75,6 +75,6 @@ html {
   background: linear-gradient(0deg, rgba(246, 72, 232, 1) 0%, rgba(155, 140, 233, 1) 100%);
   background-size: 100% 100vh;
   background-attachment: fixed;
-  cursor: progress;
+  cursor: crosshair;
   
 }
