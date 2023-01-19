@@ -55,7 +55,7 @@
 
   box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.535);
 
-  cursor: pointer;
+  
 }
 .dark #theme {
   background-color: rgb(255, 255, 255);
@@ -75,6 +75,6 @@ html {
   background: linear-gradient(0deg, rgba(246, 72, 232, 1) 0%, rgba(155, 140, 233, 1) 100%);
   background-size: 100% 100vh;
   background-attachment: fixed;
-  cursor: pointer;
+  
   
 }
